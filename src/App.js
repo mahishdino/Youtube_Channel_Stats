@@ -35,9 +35,9 @@ function App() {
     console.log(result);
   };
 
-  // const handleChange = (e) => {
-  //   setUrl(e.target.value);
-  // };
+  const handleChange = (e) => {
+    setUrl(e.target.value);
+  };
   return (
     <div className="App">
       <br />
